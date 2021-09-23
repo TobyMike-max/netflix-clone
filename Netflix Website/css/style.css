@@ -1,3 +1,4 @@
+/* This styling covers the overall page */
 :root {
     --primary-color: #e50914;
 }
@@ -41,6 +42,7 @@ input, textarea{
     outline: none;
 }
 
+/* This styling applies to the showcase area */
 .showcase{
     width: 100%;
     height: 100vh;
@@ -63,6 +65,7 @@ input, textarea{
 }
 
 
+/* This styling applies to the form */
 .form-container {
 
     display: grid;
@@ -169,15 +172,8 @@ input, textarea{
     width: 900px;
 }
 
-/* .container{
-    outline: none;
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
-} */
 
+/* TV section */
 section.TV{
 display: grid;
 grid-template-columns: 55% 45%;
@@ -185,6 +181,7 @@ height: auto;
 margin: auto;
 }
 
+/* Mobile section */
 section.mobile{
     display: grid;
     grid-template-columns: 45% 55%;
@@ -228,16 +225,7 @@ section div.video video{
 }
 
 
-
-
-
-
-
-
-
-
-
-
+/* justText section */
 section.justText{
     margin: 10px 50px;
     display: grid;
@@ -267,7 +255,7 @@ section.justText div.text{
     }
 
 
-
+/* Kids section */
  section.kids{
     display: grid;
     grid-template-columns: 45% 55%;
@@ -282,7 +270,7 @@ section.kids img{
 }
 
 
-
+/* customers section */
 section.customers{
     display: flex;
     flex-direction: column;
@@ -320,8 +308,7 @@ section.customers > div.cu h4 {
     font-weight: lighter;
 }
 
-
-
+/* The break line */
 .break {
     border-bottom: rgb(49, 46, 46) 8px solid;
 }
