@@ -50,8 +50,6 @@ input, textarea{
     background: url('../img/new-background\ image.jpg') no-repeat center center/cover;
 }
 
-
-
 .showcase::after{
     content: '';
     position: absolute;
@@ -84,10 +82,9 @@ input, textarea{
     padding-left: 10px;
     border-radius: 2px 0 0 2px;
     outline: none;
-    border: none;
-    
-   
+    border: none;   
 } 
+
 
 .form-container button{
 
@@ -102,14 +99,12 @@ input, textarea{
     color: #fff; 
     font-size: 1.5rem;
     letter-spacing: 1px;
-    /* word-spacing: 3px; */
     border: none;
     cursor: pointer;
     outline: none;
     /* box-shadow: 0 1px 0 rgba(0,0,0,0.45); */
     border-radius: 0 2px 2px 0;
     margin-left: 0;
-
 }
 
 
@@ -159,7 +154,6 @@ input, textarea{
     font-weight: 100;
     font-size: 1.6rem;
     line-height: 1.25;
-    /* margin: 0 0 2rem; */
 }
 
 .showcase-content h3 {
@@ -190,12 +184,12 @@ section.mobile{
     }
 
 
-
 section img{
     height: 400px;
     width: 510px;
     position: relative;
 }
+
 
 section div.text{
     margin: 150px 100px;
@@ -204,16 +198,17 @@ section div.text{
     color: white;
 }
 
+
 section div.text h1{
     font-size: 3rem;
-    margin-bottom: 15px;
-    
+    margin-bottom: 15px;    
 }
 
+
 section div.text p{
-    font-size: 1.7rem;
-    
+    font-size: 1.7rem;    
 }
+
 
 section div.video video{
     height: 210px; 
@@ -250,8 +245,7 @@ section.justText div.text{
         text-align: left;
         /* font-size: 1.8rem; */
         color: white;
-        margin-left: 100px;
-    
+        margin-left: 100px;    
     }
 
 
@@ -263,6 +257,7 @@ section.justText div.text{
     height: auto;
     margin: auto;
 }
+
 
 section.kids img{
     margin-left: 100px;
@@ -290,16 +285,15 @@ section.customers > div.cu {
     align-items: center;
 }
 
-section.customers h1{
 
+section.customers h1{
     font-size: 45px;
     margin: 40px 20px;
     margin-top: 80px;
-
 }
 
-section.customers > div.cu h4 {
 
+section.customers > div.cu h4 {
     color: white;
     padding: 20px 25px;
     display: flex;
